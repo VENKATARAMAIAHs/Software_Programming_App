@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#533374"
+    tools:context=".Main3Activity">
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ceff007b"
+            android:textSize="10sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/textView3"/>
+        <TextView
+            android:textColor="#ffee00"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select course Through"
+            android:textSize="20sp"
+            android:id="@+id/textView"/>
+
+
+
+
+
+        <CheckBox
+            android:textColor="#ffee00"
+            android:background="#3c543c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pendrive Cost , 10,000    "
+            android:id="@+id/checkbox"/>
+        <CheckBox
+            android:background="#3c543c"
+            android:textColor="#ffee00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SD Card Cost , 11,105      "
+            android:id="@+id/checkbox1"/>
+        <CheckBox
+            android:textColor="#ffee00"
+            android:background="#3c543c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Web Tutorial Cost , 7500"
+            android:id="@+id/checkbox2"/>
+
+        <TextView
+            android:layout_marginTop="25dp"
+            android:textColor="#00b7ff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Course Duration"
+            android:textSize="20sp"
+            android:id="@+id/textView5"/>
+        <RadioButton
+            android:background="#3c543c"
+            android:textColor="#ff9100"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LongTerm,6 Months "
+            android:id="@+id/radioButton5"/>
+        <RadioButton
+            android:background="#3c543c"
+            android:textColor="#ff6f00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ShortTerm,2 Months"
+            android:id="@+id/radioButton6"/>
+
+        <TextView
+            android:textColor="#00c8ff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Trainer "
+            android:textSize="20sp"
+            android:id="@+id/textView6"/>
+        <RadioButton
+            android:textSize="20sp"
+            android:textColor="#ffe205"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Suresh"
+            android:id="@+id/radioButton7"/>
+        <RadioButton
+            android:textColor="#ffdd00"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vishnu"
+            android:id="@+id/radioButton8"/>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:textColor="#00c8ff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Batch Timings "
+            android:textSize="20sp"
+            android:id="@+id/textView7"/>
+        <RadioButton
+            android:textSize="20sp"
+            android:textColor="#1ef1ae"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Morning Batch"
+            android:id="@+id/radioButton9"/>
+        <RadioButton
+            android:textColor="#13dca6"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Evening Batch"
+            android:id="@+id/radioButton10"/>
+
+
+
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:textColor="#001eff"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pay By"
+                    android:textSize="20sp"
+                    android:id="@+id/textView2"/>
+                <RadioButton
+                    android:background="#3c543c"
+                    android:textColor="#ff9100"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CC Avenue"
+                    android:id="@+id/radioButton1"/>
+                <RadioButton
+                    android:background="#3c543c"
+                    android:textColor="#ff6f00"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Paytm"
+                    android:id="@+id/radioButton2"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="150dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:textColor="#1100ff"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Gender"
+                    android:textSize="20sp"
+                    android:id="@+id/textView4"/>
+
+                <RadioButton
+                    android:background="#3c543c"
+                    android:textColor="#ff0015"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Male"
+                    android:id="@+id/radioButton3"/>
+                <RadioButton
+                    android:background="#3c543c"
+                    android:textColor="#e73fd3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Female"
+                    android:id="@+id/radioButton4"/>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="25dp"
+            app:cardElevation="20dp">
+            <Button
+                android:background="#90ff00"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Enroll"
+                android:id="@+id/button" />
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="25dp"
+            app:cardElevation="20dp">
+            <Button
+                android:background="#5c8ec6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Sart Corss"
+                android:id="@+id/button2" />
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+
+
+</ScrollView>

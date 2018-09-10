@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <TextView
+            android:textSize="20sp"
+            android:textColor="#0a0909"
+            android:gravity="center"
+            android:text="Select Any One Programming"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"/>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="5dp"
+            android:layout_marginTop="10dp"
+            app:cardElevation="7dp">
+            <Button
+                android:background="#a600ff"
+                android:onClick="Button_1"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Java"
+                android:id="@+id/button"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="5dp"
+            android:layout_marginTop="20dp"
+            app:cardElevation="7dp">
+            <Button
+                android:gravity="center"
+                android:onClick="Button_1"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Android"
+                android:background="#fdfbfd"
+                android:id="@+id/button1"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="5dp"
+            android:layout_marginTop="20dp"
+            app:cardElevation="7dp">
+            <Button
+                android:onClick="Button_1"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="C#"
+                android:background="#84ff00"
+                android:id="@+id/button2"/>
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="5dp"
+            android:layout_marginTop="20dp"
+            app:cardElevation="7dp">
+            <Button
+                android:onClick="Button_1"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SQL"
+                android:background="#975097"
+                android:id="@+id/button3"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="5dp"
+            android:layout_marginTop="20dp"
+            app:cardElevation="7dp">
+            <Button
+                android:onClick="Button_1"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:text=".net"
+                android:background="#dc7777"
+                android:id="@+id/button4"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="5dp"
+            android:layout_marginTop="20dp"
+            app:cardElevation="7dp">
+            <Button
+                android:background="#ff9f"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="c/c++"
+                android:onClick="Button_1"
+                android:id="@+id/button5"/>
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="5dp"
+            android:layout_marginTop="20dp"
+            app:cardElevation="7dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="j2ee"
+                android:textSize="20sp"
+                android:background="#00ffaa"
+                android:onClick="Button_1"
+                android:id="@+id/button6"/>
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="5dp"
+            android:layout_marginTop="20dp"
+            app:cardElevation="7dp">
+            <Button
+                android:onClick="Button_1"
+                android:background="#0d00ff"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="java \n frameworks"
+                android:id="@+id/button7"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="5dp"
+            android:layout_marginTop="20dp"
+            app:cardElevation="7dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Html"
+                android:textSize="20sp"
+                android:background="#ff0015"
+                android:onClick="Button_1"
+                android:id="@+id/button8"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="5dp"
+            android:layout_marginTop="20dp"
+            app:cardElevation="7dp">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="css"
+                android:textSize="20sp"
+                android:background="#00f2ff"
+                android:onClick="Button_1"
+                android:id="@+id/button9"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="5dp"
+            android:layout_marginTop="20dp"
+            app:cardElevation="7dp">
+
+            <Button
+                android:onClick="Button_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="javaScript"
+                android:textSize="20sp"
+                android:background="#a100ff"
+                android:id="@+id/button10"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="5dp"
+            android:layout_marginTop="20dp"
+            app:cardElevation="7dp">
+            <Button
+                android:onClick="Button_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AngularJS"
+                android:textSize="20sp"
+                android:background="#ff00d5"
+                android:id="@+id/button11"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="5dp"
+            android:layout_marginTop="20dp"
+            app:cardElevation="7dp">
+            <Button
+                android:background="#e7aea0"
+                android:onClick="Button_1"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="IOS"
+                android:id="@+id/button12"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="5dp"
+            android:layout_marginTop="20dp"
+            app:cardElevation="7dp">
+            <Button
+                android:background="#919663"
+                android:onClick="Button_1"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="phyton"
+                android:id="@+id/button13"/>
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="5dp"
+            android:layout_marginTop="20dp"
+            app:cardElevation="7dp">
+            <Button
+                android:background="#ffd000"
+                android:onClick="Button_1"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="php"
+                android:id="@+id/button14"/>
+        </android.support.v7.widget.CardView>
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="5dp"
+            android:layout_marginTop="20dp"
+            app:cardElevation="7dp">
+            <Button
+                android:background="#ff009d"
+                android:onClick="Button_1"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Asp.net"
+                android:id="@+id/button15"/>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>
